@@ -1,0 +1,64 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/ro/Pictures/pfp/sh.png",
+    "padding": {
+      "top": 1,
+      "left": 2
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "title": "light_red"
+    }
+  },
+  "modules": [
+    "break",
+    "title",
+    {
+      "type": "kernel",
+      "key": "kernel    ",
+      "keyColor": "green"
+    },
+    {
+      "type": "wm",
+      "key": "de    ",
+      "keyColor": "red"
+    },
+    {
+      "type": "shell",
+      "key": "shell ",
+      "keyColor": "light_red"
+    },
+    {
+      "type": "uptime",
+      "format": "{2}h {3}m",
+      "key": "uptime",
+      "keyColor": "light_white"
+    },
+    {
+      "type": "command",
+      "key": "os age",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s);    days_difference=$(( (current - birth_install) / 86400 )); echo $days_difference days",
+      "keyColor": "light_yellow"
+    },
+    {
+      "type": "memory",
+      "key": "memory",
+      "keyColor": "light_blue"
+    },
+    {
+     "type": "disk",
+      "key": "disk",
+      "keycolor": "white"
+    },
+    {
+      "type": "custom",
+      "key": "phone  ",
+      "format": "andriod",
+      "keyColor": "light_green"
+    }
+  ]
+}
