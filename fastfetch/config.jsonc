@@ -55,9 +55,9 @@
       "keycolor": "white"
     },
     {
-      "type": "custom",
-      "key": "phone  ",
-      "format": "andriod",
+      "type": "cpu",
+      "format":"i5-12450H",
+      "key": " ",
       "keyColor": "light_green"
     }
   ]
